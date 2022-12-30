@@ -31,7 +31,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Fileshare123:Fileshare123@cluster0.nqjle5f.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharemaanavbot")
 
-#force sub channel id, if you want enable force sub
+#force sub channel link, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001453357518"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
